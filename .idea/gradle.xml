@@ -13,6 +13,10 @@
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
+<<<<<<< HEAD
+=======
+        <option name="resolveExternalAnnotations" value="false" />
+>>>>>>> 9007aa726ee261223ce5c1017314b3157ad6bda2
       </GradleProjectSettings>
     </option>
   </component>
