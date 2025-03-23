@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#CCCCCC">
+    <!-- 첫 번째 줄 -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/key_exclamation" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="!" />
+        <Button android:id="@+id/key_question" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="?" />
+        <Button android:id="@+id/key_comma" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="," />
+        <Button android:id="@+id/key_dot" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="." />
+        <Button android:id="@+id/key_semicolon" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text=";" />
+        <Button android:id="@+id/key_paren_open" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="(" />
+        <Button android:id="@+id/key_paren_close" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text=")" />
+    </LinearLayout>
+
+    <!-- 두 번째 줄 -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/key_01" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㅇ" />
+        <Button android:id="@+id/key_02" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㄱ" />
+        <Button android:id="@+id/key_03" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㅏ" />
+        <Button android:id="@+id/key_backspace" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="⌫" />
+    </LinearLayout>
+
+    <!-- 세 번째 줄 -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/key_04" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㄴ" />
+        <Button android:id="@+id/key_05" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㄷ" />
+        <Button android:id="@+id/key_06" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㅓ" />
+        <Button android:id="@+id/key_space" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="␣" />
+    </LinearLayout>
+
+    <!-- 네 번째 줄 -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/key_07" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㅁ" />
+        <Button android:id="@+id/key_08" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㅂ" />
+        <Button android:id="@+id/key_09" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㅣ" />
+        <Button android:id="@+id/key_enter" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="⏎" />
+    </LinearLayout>
+
+    <!-- 다섯 번째 줄 (특문과 한영전환을 작게) -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/key_10" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㅅ" />
+        <Button android:id="@+id/key_11" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㅈ" />
+        <Button android:id="@+id/key_12" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="ㅡ" />
+        <Button android:id="@+id/key_special" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="0.5" android:text="특" />
+        <Button android:id="@+id/key_english" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="0.5" android:text="🌐" />
+    </LinearLayout>
+</LinearLayout>
