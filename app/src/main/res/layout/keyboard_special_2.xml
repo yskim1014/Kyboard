@@ -52,8 +52,8 @@
 
     <!-- 네 번째 줄 -->
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
-        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_special_3" android:text="⬅" />
-        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_special_2" android:text="➡" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_special_1" android:text="⬅" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_special_3" android:text="➡" />
         <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_z" android:text="z" />
         <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_x" android:text="x" />
         <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_c" android:text="c" />

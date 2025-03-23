@@ -1,5 +1,4 @@
 [versions]
-<<<<<<< HEAD
 agp = "8.9.0"
 kotlin = "2.0.21"
 coreKtx = "1.15.0"
@@ -8,16 +7,6 @@ junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 appcompat = "1.7.0"
 material = "1.12.0"
-=======
-agp = "8.8.0"
-kotlin = "1.9.24"
-coreKtx = "1.10.1"
-junit = "4.13.2"
-junitVersion = "1.1.5"
-espressoCore = "3.5.1"
-appcompat = "1.6.1"
-material = "1.10.0"
->>>>>>> 9007aa726ee261223ce5c1017314b3157ad6bda2
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }

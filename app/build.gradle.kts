@@ -4,19 +4,11 @@ plugins {
 }
 
 android {
-<<<<<<< HEAD
     namespace = "com.francislab.kyboard"
     compileSdk = 35
 
     defaultConfig {
         applicationId = "com.francislab.kyboard"
-=======
-    namespace = "com.example.kyboard"
-    compileSdk = 35
-
-    defaultConfig {
-        applicationId = "com.example.kyboard"
->>>>>>> 9007aa726ee261223ce5c1017314b3157ad6bda2
         minSdk = 35
         targetSdk = 35
         versionCode = 1

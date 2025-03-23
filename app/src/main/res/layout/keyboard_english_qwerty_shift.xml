@@ -7,66 +7,66 @@
     android:background="#CCCCCC">
     <!-- 첫 번째 줄 -->
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
-        <Button android:id="@+id/key_exclamation" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="!" />
-        <Button android:id="@+id/key_at" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="\@" />
-        <Button android:id="@+id/key_sharp" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="#" />
-        <Button android:id="@+id/key_dollar" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="$" />
-        <Button android:id="@+id/key_percent" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="%" />
-        <Button android:id="@+id/key_carrot" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="^" />
-        <Button android:id="@+id/key_ampersand" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="&#0038;" />
-        <Button android:id="@+id/key_asterisk" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="*" />
-        <Button android:id="@+id/key_paren_open" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="(" />
-        <Button android:id="@+id/key_paren_close" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text=")" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_exclamation"  android:text="!" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_at" android:text="\@" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_sharp"  android:text="#" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_dollar" android:text="$" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_percent" android:text="%" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_carrot" android:text="^" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_ampersand" android:text="&#0038;" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_asterisk" android:text="*" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_paren_open" android:text="(" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_paren_close" android:text=")" />
     </LinearLayout>
 
     <!-- 두 번째 줄 -->
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
-        <Button android:id="@+id/key_Q" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="Q" />
-        <Button android:id="@+id/key_W" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="W" />
-        <Button android:id="@+id/key_E" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="E" />
-        <Button android:id="@+id/key_R" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="R" />
-        <Button android:id="@+id/key_T" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="T" />
-        <Button android:id="@+id/key_Y" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="Y" />
-        <Button android:id="@+id/key_U" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="U" />
-        <Button android:id="@+id/key_I" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="I" />
-        <Button android:id="@+id/key_O" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="O" />
-        <Button android:id="@+id/key_P" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="P" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_Q" android:text="Q" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_W" android:text="W" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_E" android:text="E" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_R" android:text="R" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_T" android:text="T" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_Y" android:text="Y" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_U" android:text="U" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_I" android:text="I" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_O" android:text="O" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_P" android:text="P" />
     </LinearLayout>
 
     <!-- 세 번째 줄 -->
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
-        <Button android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="0.5" android:text="" />
-        <Button android:id="@+id/key_A" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="A" />
-        <Button android:id="@+id/key_S" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="S" />
-        <Button android:id="@+id/key_D" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="D" />
-        <Button android:id="@+id/key_F" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="F" />
-        <Button android:id="@+id/key_G" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="G" />
-        <Button android:id="@+id/key_H" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="H" />
-        <Button android:id="@+id/key_J" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="J" />
-        <Button android:id="@+id/key_k" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="K" />
-        <Button android:id="@+id/key_L" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="L" />
-        <Button android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="0.5" android:text="" />
+        <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="0.75" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_A" android:text="A" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_S" android:text="S" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_D" android:text="D" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_F" android:text="F" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_G" android:text="G" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_H" android:text="H" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_J" android:text="J" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_k" android:text="K" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_L" android:text="L" />
+        <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="0.75" />
     </LinearLayout>
 
     <!-- 네 번째 줄 -->
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
-        <Button android:id="@+id/key_unshift" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1.5" android:text="⬇" />
-        <Button android:id="@+id/key_Z" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="z" />
-        <Button android:id="@+id/key_X" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="x" />
-        <Button android:id="@+id/key_C" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="c" />
-        <Button android:id="@+id/key_V" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="v" />
-        <Button android:id="@+id/key_B" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="b" />
-        <Button android:id="@+id/key_N" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="n" />
-        <Button android:id="@+id/key_M" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="m" />
-        <Button android:id="@+id/key_backspace" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1.5" android:text="⌫" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.5" android:id="@+id/key_unshift" android:text="⬇" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_Z" android:text="Z" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_X" android:text="X" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_C" android:text="C" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_V" android:text="V" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_B" android:text="B" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_N" android:text="N" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_M" android:text="M" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.5" android:id="@+id/key_backspace" android:text="⌫" />
     </LinearLayout>
 
     <!-- 다섯 번째 줄 (특문과 한영전환을 작게) -->
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
-        <Button android:id="@+id/key_special" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1.5" android:text="!?" />
-        <Button android:id="@+id/key_space" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="5" android:text=" English " />
-        <Button android:id="@+id/key_dot" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="." />
-        <Button android:id="@+id/key_korean" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1" android:text="🌐" />
-        <Button android:id="@+id/key_enter" android:layout_width="0dp" android:layout_height="60dp" android:layout_weight="1.5" android:text="⏎" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.5" android:id="@+id/key_special_1" android:text="!?" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="5" android:id="@+id/key_space" android:text=" English " />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_dot" android:text="." />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:id="@+id/key_korean" android:text="🌐" />
+        <Button android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1.5" android:id="@+id/key_enter" android:text="↩️" />
     </LinearLayout>
 </LinearLayout>

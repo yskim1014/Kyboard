@@ -7,23 +7,14 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-<<<<<<< HEAD
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kyboard">
-=======
-        android:label="Kyboard"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.Kyboard"
-        tools:targetApi="31">
->>>>>>> 9007aa726ee261223ce5c1017314b3157ad6bda2
         <service
             android:name=".KyboardService"
             android:permission="android.permission.BIND_INPUT_METHOD"
             android:exported="true">
-<<<<<<< HEAD
         <intent-filter>
             <action android:name="android.view.InputMethod.SERVICE" />
         </intent-filter>
@@ -31,19 +22,6 @@
             android:name="android.view.inputmethod"
             android:resource="@xml/method" />
         </service>
-
-=======
-            <!--android:screenOrientation="portrait"
-            tools:ignore="LockedOrientationActivity" # 세로모드고정
-            -->
-            <intent-filter>
-                <action android:name="android.view.InputMethod" />
-            </intent-filter>
-            <meta-data
-                android:name="android.view.im"
-                android:resource="@xml/method" />
-        </service>
->>>>>>> 9007aa726ee261223ce5c1017314b3157ad6bda2
     </application>
 
 </manifest>
